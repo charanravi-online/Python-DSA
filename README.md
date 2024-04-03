@@ -1,9 +1,6 @@
 You're probably here to learn some data structures and algo using python.\
 Don't really want to waste your time here, so let's get straight to it.
 
-# Contents
-1. [Why DSA?](https://github.com/charanravi-online/Python-DSA?tab=readme-ov-file#why-python-)
-2. [Why Python?](https://github.com/charanravi-online/Python-DSA?tab=readme-ov-file#why-python-)
 
 ## Why DSA? <a name = "Why"></a>
 1. To make yourself a better developer.\
