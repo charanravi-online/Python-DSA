@@ -1,8 +1,11 @@
 You're probably here to learn some data structures and algo using python.\
 Don't really want to waste your time here, so let's get straight to it.
 
+# Contents
+1. [Why DSA?](#Why-DSA?)
+2. [Why Python?](#Why-Python)
 
-## Why DSA? <a name = "Why"></a>
+## Why-DSA?
 1. To make yourself a better developer.\
 (you could save a lot of your CPU cycles if your code is optimised, and on a large scale, that's going to save your organisation a lot of money, which is why they would hire someone who is well versed)
 2. To get hired lol.
@@ -10,7 +13,7 @@ Don't really want to waste your time here, so let's get straight to it.
 
 
 
-## Why Python? <a name = "WhyPython"></a>
+## Why-Python?
 1. Let's just be honest here, you chose python because it's pretty neat and easy to understand didn't you?\
    Yeah it is pretty easy to read and beginner friendly.
 2. Don't stress too much about the language.
