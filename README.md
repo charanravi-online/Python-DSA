@@ -3,10 +3,7 @@ Don't really want to waste your time here, so let's get straight to it.
 
 # Contents
 1. [Why DSA?](#Why)
-
-
-
-
+2. [Why Python?](#WhyPython)
 
 ## Why DSA? <a name = "Why"></a>
 1. To make yourself a better developer.\
@@ -14,3 +11,10 @@ Don't really want to waste your time here, so let's get straight to it.
 2. To get hired lol.
 3. Competitive coding, If you're one of the few people who sees coding as a fun, competitive and an interesting activity. 
 
+
+
+## Why Python? <a name = "WhyPython"></a>
+1. Let's just be honest here, you chose python because it's pretty neat and easy to understand didn't you?\
+   Yeah it is pretty easy to read and beginner friendly.
+2. Don't stress too much about the language.
+3. Python, Java or C++? Relax and go with whatever you feel comfortable with. 
