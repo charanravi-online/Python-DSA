@@ -32,3 +32,5 @@ Don't really want to waste your time here, so let's get straight to it.
    - No dependency on machine, programming language, etc.
    - We do not have to implement all ideas and algorithms.
    - Asymptotic analysis is about measuring order of growth in terms of input size.
+  
+5. Example : "add example here"
