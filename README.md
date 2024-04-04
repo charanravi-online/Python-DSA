@@ -3,7 +3,8 @@ Don't really want to waste your time here, so let's get straight to it.
 
 # Contents
 1. [Why DSA?](#Why-DSA?)
-2. [Why Python?](#Why-Python)
+2. [Why Python?](#Why-Python?)
+3. [Asymptotic?](#Asymptotic?)
 
 ## Why-DSA?
 1. To make yourself a better developer.\
@@ -18,3 +19,16 @@ Don't really want to waste your time here, so let's get straight to it.
    Yeah it is pretty easy to read and beginner friendly.
 2. Don't stress too much about the language.
 3. Python, Java or C++? Relax and go with whatever you feel comfortable with. 
+
+
+## Asymptotic?
+1. If you'd want any code to be run in least time possible (not really caring about the optimisations), you could use a super fast system with all the high end specs.\
+   Chances are, it will run faster in that than a potato PC. But, this becomes variable. How your code runs in certain environments changes depending on the environment,\
+   and this only makes things more difficult for us to calculate the efficiency of our code.\
+   (When you use a different programming language like C, it is a compiled language and could take less exeuction time as compared to Python which is an interpreted language.)
+3. This is why we use Asymptotic Analysis. We don't even have to write the entire code to begin our analysis. All we need is pseudo code or the algorithm ready.\
+   We would use this to tell how efficient our piece of code is depending on the input we give.
+4. To summarise,
+   - No dependency on machine, programming language, etc.
+   - We do not have to implement all ideas and algorithms.
+   - Asymptotic analysis is about measuring order of growth in terms of input size.
