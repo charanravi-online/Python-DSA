@@ -5,6 +5,7 @@ Don't really want to waste your time here, so let's get straight to it.
 1. [Why DSA?](#Why-DSA?)
 2. [Why Python?](#Why-Python?)
 3. [Asymptotic?](#Asymptotic?)
+4. [Big O Notation](#Big-O-Notation)
 
 ## Why-DSA?
 1. To make yourself a better developer.\
@@ -34,3 +35,14 @@ Don't really want to waste your time here, so let's get straight to it.
    - Asymptotic analysis is about measuring order of growth in terms of input size.
   
 5. Example : "add example here"
+
+## Big-O-Notation
+1. To put it simply, imageine you're comparing ways to sort a list of numbers.\
+   The big O Notation helps you understand how these methods perform as the list gets longer.
+
+2. Example: Let's say you have a list of 10 numbers. One method might take 10 steps to sort it while another might take 100 steps.\
+   With Big O Notation, we ignore exact numbers and focus on how these methods behave as the list grows infinitely long.
+
+3. In summary, Big O Notation tells us how an algorithm's performance changes as the amount of data it's working on changes,\
+   using simple terms like "linear" or "quadratic" to describe this behavior.
+   
