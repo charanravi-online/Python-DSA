@@ -8,6 +8,8 @@ Happy Learning!
 3. [Asymptotic?](#Asymptotic?)
 4. [Big O Notation](#Big-O-Notation)
 5. [Theta Notation](#Theta-Notation)
+6. [Properties of Asymptotic Notations](#Properties-of-Asymptotic-Notation)
+
 
 ## Why-DSA?
 1. To make yourself a better developer.\
@@ -73,4 +75,22 @@ Happy Learning!
      It gives you the minimum time you'll spend on the road.
 4. So, Omgega notation focuses on the lower limit, giving you an idea of the best case scenario.\
    It is also the least used notation among these three.
+
+
+## Properties-of-Asymptotic-Notation
+1. ### General Properties
+   ``` If f(n) is O(g(n)) and k is constant then k*f(n) is also O(g(n))```\
+   Let's look at this with an example,\
+   f(n) = 2n²+5 is O(n²)\
+   then 7*f(n) = 7(2n²+5) = 14n²+35 is also O(n²).\
+   Similarly, this property satisfies both Θ and Ω notation. 
+
+2. ### Transitive Properties
+   ``` If g(n) is O(h(n)) and f(n) is O(g(n)) then f(n) = O(h(n)) ```\
+   Let's look at this with an example,\
+   Example: if f(n) = n, g(n) = n² and h(n)=n³\
+   n is O(n²) and n² is O(n³)\
+   then n is O(n³)\
+   Similarly, this property satisfies both Θ and Ω notation.
    
+4. ### Reflexive Properties
