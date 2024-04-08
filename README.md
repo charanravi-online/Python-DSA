@@ -6,6 +6,7 @@ Don't really want to waste your time here, so let's get straight to it.
 2. [Why Python?](#Why-Python?)
 3. [Asymptotic?](#Asymptotic?)
 4. [Big O Notation](#Big-O-Notation)
+5. [Theta Notation](#Theta-Notation)
 
 ## Why-DSA?
 1. To make yourself a better developer.\
@@ -45,4 +46,16 @@ Don't really want to waste your time here, so let's get straight to it.
 
 3. In summary, Big O Notation tells us how an algorithm's performance changes as the amount of data it's working on changes,\
    using simple terms like "linear" or "quadratic" to describe this behavior.
+
+## Theta-Notation
+1. Okay, so imagine you're on an roadtrip, and you want to know how long it would take. It could take around\
+   4 to 6 hours, depending on traffic and road conditions.\
+
+   The Big O Notation would be saying "At most it'll take 6 hours".\
+   Observe that it is the worst case scenario.
+
+   The Theta Notation (Θ) on the other hand would say "It'll take between 4 ot 6 hours."\
+   Observe that it gives a more precise range , showing both the minimum and maximum times.
+
+2. So, while Big O gives you the upper limit, Theta gives you a range that's closer to reality, showing both the best and worst-case scenarios. 
    
