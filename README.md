@@ -51,11 +51,25 @@ Don't really want to waste your time here, so let's get straight to it.
 1. Okay, so imagine you're on an roadtrip, and you want to know how long it would take. It could take around\
    4 to 6 hours, depending on traffic and road conditions.\
 
-   The Big O Notation would be saying "At most it'll take 6 hours".\
+   - The Big O Notation would be saying "At most it'll take 6 hours".\
    Observe that it is the worst case scenario.
 
-   The Theta Notation (Θ) on the other hand would say "It'll take between 4 ot 6 hours."\
+   - The Theta Notation (Θ) on the other hand would say "It'll take between 4 ot 6 hours."\
    Observe that it gives a more precise range , showing both the minimum and maximum times.
 
-2. So, while Big O gives you the upper limit, Theta gives you a range that's closer to reality, showing both the best and worst-case scenarios. 
+2. So, while Big O gives you the upper limit, Theta gives you a range that's closer to reality, showing both the best and worst-case scenarios.
+
+## Omega-Notation
+1. Just as Big O represents asymptotic upper bound of a function, Omega Notation (Ω) provides asymtotic lower bound of a function.
+2. What this means is it gives the best case scenario of a function.
+3. To understand this better, imagine you're planning another road trip, and this time you know it's going to take at least 4 hours,\
+   but it could take longer depending on the traffic and road conditions.\
+   - Big O Notation would be saying, "At most it'll take 6 hours."\
+     It gives you the maximum time you'll spend on the road.
+   - Theta Notation would say "It'll take between 4 to 6 hours."\
+     It gives you a range, showing both the minimum and maximum time it could take.
+   - Omega Notation would say, "It'll take at least 4 hours."\
+     It gives you the minimum time you'll spend on the road.
+4. So, Omgega notation focuses on the lower limit, giving you an idea of the best case scenario.\
+   It is also the least used notation among these three.
    
