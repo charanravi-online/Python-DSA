@@ -9,6 +9,7 @@ Happy Learning!
 4. [Big O Notation](#Big-O-Notation)
 5. [Theta Notation](#Theta-Notation)
 6. [Properties of Asymptotic Notations](#Properties-of-Asymptotic-Notation)
+7. [Worst, Average and Best case time complexities](#Worst-Average-Best-Case-Time-Complexities)
 
 
 ## Why-DSA?
@@ -104,4 +105,28 @@ Happy Learning!
    this is the same with g(n) as well.
    This demonstrates the reflexive property in action,\
    showing that a function can be bound above by different\
-   functions while still maintaining its growth rate.  
+   functions while still maintaining its growth rate.
+
+5. ### Summetric Properties
+   ```If f(n) is Θ(g(n)) then g(n) is Θ(f(n))```\
+   Let's look at this with an example.\
+   there are two funcions\
+   f(x) = x^2 & g(x) = 2x\
+   as x becomes very large: f(x) grows faster than g(x)\
+   as x becomes very small: g(x) grows faster than f(x)\
+   SO, the symmetric property in this case means that when one function is faster that the other as x gets large, the situation flips when x gets small.\
+   It's like a balance where one funciton dominates in one direction and another funtion in the opposite direction.
+
+6. ### Transpose Symmetric Properties
+   ``` If f(n) is O(g(n)) then g(n) is Ω (f(n)) ```\
+   Let's look at this with an example,\
+   consider two funcitons\
+   f(x) = x^3 & g(x) = 4x^2\
+   If f(x) grows faster than g(x) as x approaches positive infinity, then f(-x) grows faster than g(-x) as x approaches negative infinity.\
+   This property shows that if one function grows faster than another function for large positive inputs, the same relationship holds when you switch to large negative inputs by negating x.
+
+7. ### Other Properties
+   Well there are a few more properties but I guess it's something that can be easily googled (if you feel the need to that is).\
+   The reason I'm skipping it is becaues it is pretty boring and it is quite simple. That could be a homework of sorts.
+
+### Worst-Average-Best-Case-Time-Complexities
