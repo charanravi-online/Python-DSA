@@ -94,3 +94,14 @@ Happy Learning!
    Similarly, this property satisfies both Θ and Ω notation.
    
 4. ### Reflexive Properties
+   ```given f(n), then f(n) = O(f(n))```\
+   Let's look at this with an example,\
+   consider two funcitons\
+   f(n) = n^2 and f(n) = n^3
+   we can say that\
+   f(n) = O(n^2) and g(n) = O(n^3)
+   that is because f(n) grows at a equal rate or slower than n^2.\
+   this is the same with g(n) as well.
+   This demonstrates the reflexive property in action,\
+   showing that a function can be bound above by different\
+   functions while still maintaining its growth rate.  
