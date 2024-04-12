@@ -129,4 +129,37 @@ Happy Learning!
    Well there are a few more properties but I guess it's something that can be easily googled (if you feel the need to that is).\
    The reason I'm skipping it is becaues it is pretty boring and it is quite simple. That could be a homework of sorts.
 
-### Worst-Average-Best-Case-Time-Complexities
+## Worst-Average-Best-Case-Time-Complexities
+We'll look at a linear search example and try to get the Worst, Average and Best case time complexities.
+```
+def search(arr, x):
+
+	for i in range(len(arr)):
+                     
+		if arr[i] == x:
+			return i
+
+	return -1
+```
+### Worst Case (Commonly used)
+In the worst case we calculate the upper bound on running time of an algorithm.
+The code above takes an array and the element to be searched form the array. \
+The worst case is when the element to be searched is not present in the array. When x is not present, the search() compares x with all the elements of the array one by one.\
+Therefore the worst case for a linear search could be O(N) where N is the number of elemets in the array.
+
+### Average Case (Not so commonly used)
+Here we are just referring to estimation of the performance of an algorithm based on the average input it is likely to encounter, which involves calculating the average time complexity or space complexity over all possible inputs of a given size.
+1. Identify the possible scenarios: In a linear search the target could be at any position in the array, including first, last or any intermediate position.
+2. Assign probabilities: If the list has 10 elements, assume that the probability becomes 1/n where n is the element in the list/array.
+3. Calculate the average time: The average case time complexity is calculated by taking the weighted sum of the time taken in each scenario where the weight is the probability of that scenario occuring.
+
+### Best Case (Why even?)
+So, the best case occurs when the element we are looking for is in the first location. Which would mean that the number of operations in the best case is constant, and doesn't depend on N, making the complexity O(1).\
+Which is also why this is not used that much, since it does't really add all that value.
+
+### Note
+We mostly do the worst case where we guarantee an upper bound on the running time of an algorithm which is useful information.\
+We rarely do average case since it is not easy to do in most of the practical cases and we must know the mathematical distribution of all possible inputs.\
+Coming to best case, guaranteeing a lower bound doesn't help much if the worst case takes years to run.
+
+
