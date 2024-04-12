@@ -1,6 +1,5 @@
 This is my personal notes for data structures and algorithms.\
 Making this publicly available just in case anyone else finds it useful.\
-Happy Learning!
 
 # Contents
 1. [Why DSA?](#Why-DSA?)
