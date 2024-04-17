@@ -162,3 +162,36 @@ We rarely do average case since it is not easy to do in most of the practical ca
 Coming to best case, guaranteeing a lower bound doesn't help much if the worst case takes years to run.
 
 
+## Loop-Analysis
+1. While loop addition
+   ```
+   def add(a, b):
+    result = a
+    while b > 0:
+        result += 1
+        print(result)
+        b -= 1
+    	
+
+   
+   a = 5
+   b = 6
+   add(a,b)
+   ```
+the piece of code above does a simple job of using the while loop to add two numbers.\
+since the number of times the while loop runs depends on the value of b, we can say it is linear to the value of b making the complexity of this algo O(b). 
+   
+2. While loop subtraction
+   ```
+   def subtract(a, b):
+    result = a
+    while result >= b:
+      print(result)
+      result -= b
+    	
+   a = 5
+   b = 6
+   subtract(a, b)
+   ```
+
+   
